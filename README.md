@@ -2,8 +2,6 @@
 
 The lorabase.h 915 Frequency enum modified for Australian LoraWan Frequencies
 
-See 
-
 1. [Support for Australia 915-928 ](https://github.com/TheThingsNetwork/ttn/issues/120)
 2. [The Things Network LoraWan Internation Frequencies](https://www.thethingsnetwork.org/wiki/LoRaWAN/Frequencies/Frequency-Plans)
 
