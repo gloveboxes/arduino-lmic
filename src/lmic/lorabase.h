@@ -106,7 +106,8 @@ enum { CHNL_DNW2         = 5 };
 enum { FREQ_DNW2         = EU868_F6 };
 enum { DR_DNW2           = DR_SF12 };
 enum { CHNL_BCN          = 5 };
-enum { FREQ_BCN          = EU868_F6 };
+
+       enum { FREQ_BCN          = EU868_F6 };
 enum { DR_BCN            = DR_SF9 };
 enum { AIRTIME_BCN       = 144384 };  // micros
 
@@ -131,6 +132,8 @@ enum { DR_DFLTMIN = DR_SF8C };
 enum { DR_PAGE = DR_PAGE_US915 };
 
 // Default frequency plan for AU 915MHz
+// https://github.com/TheThingsNetwork/ttn/issues/120
+// https://www.thethingsnetwork.org/wiki/LoRaWAN/Frequencies/Frequency-Plans
 enum { US915_125kHz_UPFBASE = 915200000,
        US915_125kHz_UPFSTEP =    200000,
        US915_500kHz_UPFBASE = 915900000,
