@@ -7,8 +7,7 @@ See
 1. [Support for Australia 915-928 ](https://github.com/TheThingsNetwork/ttn/issues/120)
 2. [The Things Network LoraWan Internation Frequencies](https://www.thethingsnetwork.org/wiki/LoRaWAN/Frequencies/Frequency-Plans)
 
-
-''''c
+````c
 // Default frequency plan for AU 915MHz
 enum { US915_125kHz_UPFBASE = 915200000,
        US915_125kHz_UPFSTEP =    200000,
@@ -20,7 +19,7 @@ enum { US915_125kHz_UPFBASE = 915200000,
 
 enum { US915_FREQ_MIN = 915000000,
        US915_FREQ_MAX = 928000000 };
-''''
+````
 
 
 Arduino-LMIC library
