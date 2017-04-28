@@ -1,3 +1,28 @@
+# Forked and moded with Australian Frequencies
+
+The lorabase.h 915 Frequency enum modified for Australian LoraWan Frequencies
+
+See 
+
+1. [Support for Australia 915-928 ](https://github.com/TheThingsNetwork/ttn/issues/120)
+2. [The Things Network LoraWan Internation Frequencies](https://www.thethingsnetwork.org/wiki/LoRaWAN/Frequencies/Frequency-Plans)
+
+
+''''c
+// Default frequency plan for AU 915MHz
+enum { US915_125kHz_UPFBASE = 915200000,
+       US915_125kHz_UPFSTEP =    200000,
+       US915_500kHz_UPFBASE = 915900000,
+       US915_500kHz_UPFSTEP =   1600000,
+       US915_500kHz_DNFBASE = 923300000,
+       US915_500kHz_DNFSTEP =    600000
+};
+
+enum { US915_FREQ_MIN = 915000000,
+       US915_FREQ_MAX = 928000000 };
+''''
+
+
 Arduino-LMIC library
 ====================
 This repository contains the IBM LMIC (LoraMAC-in-C) library, slightly
